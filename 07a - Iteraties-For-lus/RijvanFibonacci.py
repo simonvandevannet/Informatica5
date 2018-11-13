@@ -1,12 +1,13 @@
-# uitvoer
+# invoer
 n = int(input('n = '))
-uitv = 1
-v1uitv = 0
-# rij van Fibonacci
+uitvoer = 1
+uitvoer1 = 0
+
+# berekening
 for _ in range(n - 1):
-    v2uitv = v1uitv
-    v1uitv = uitv
-    uitv = v1uitv + v2uitv
+    uitvoer2 = uitvoer1
+    uitvoer1 = uitvoer
+    uitvoer = uitvoer1 + uitvoer2
 
 # uitvoer
-print(uitv)
+print(uitvoer)

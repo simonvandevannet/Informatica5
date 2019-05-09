@@ -1,0 +1,1 @@
+woonplaatsen = {'Waregem', 'Tielt', 'Veurne'}
